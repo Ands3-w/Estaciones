@@ -1,0 +1,105 @@
+/estaciones-aprendizaje
+|-- index.html
+|-- styles.css
+|-- script.js
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estaciones de Aprendizaje</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Estaciones de Aprendizaje</h1>
+    <nav>
+      <ul>
+        <li><a href="#matematicas">Matemáticas</a></li>
+        <li><a href="#hse">Habilidades Socioemocionales</a></li>
+        <li><a href="#ciencias">Ciencias</a></li>
+        <li><a href="#ef">Educación Financiera</a></li>
+        <li><a href="#artes">Artes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="matematicas">
+    <h2>Matemáticas</h2>
+    <p>Contenido sobre Matemáticas...</p>
+    <a href="https://www.mundoprimaria.com/juegos-educativos/juegos-matematicas">Ir a Mundo Primaria</a>
+  </section>
+
+  <section id="hse">
+    <h2>Habilidades Socioemocionales</h2>
+    <p>Contenido sobre Habilidades Socioemocionales...</p>
+    <a href="https://fundacionbotin.org/programas/educacion/investigacion-publicaciones/educacion-emocional-social/">Ir a Fundación Botín</a>
+  </section>
+
+  <section id="ciencias">
+    <h2>Ciencias</h2>
+    <p>Contenido sobre Ciencias...</p>
+    <a href="https://wordwall.net/es-es/community/ciencias-naturales/juegos-de">Ir a Wordwall</a>
+  </section>
+
+  <section id="ef">
+    <h2>Educación Financiera</h2>
+    <p>Contenido sobre Educación Financiera...</p>
+    <a href="https://www.finanzasparatodos.es/gepeese/es/ludoteca/">Ir a Finanzas para Todos</a>
+  </section>
+
+  <section id="artes">
+    <h2>Artes</h2>
+    <p>Contenido sobre Artes...</p>
+    <a href="https://www.cokitos.com/tag/juegos-de-arte/">Ir a Cokitos</a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+/* Estilos generales */
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #003B6F;
+}
+
+a {
+  color: #76C7C0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #003B6F;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+section:nth-of-type(even) {
+  background-color: #D3D3D3;
+}
+// Aquí puedes agregar interacciones si las necesitas
